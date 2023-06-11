@@ -1,0 +1,161 @@
+/* Navbar */
+.navbar {
+  background-color: #033BA7; /* Set the background color */
+  color: #FFFFFF; /* Set the text color */
+}
+
+.navbar-brand img {
+  height: 80px; /* Adjust the logo height as needed */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+  color: #FFFFFF; /* Set the link color */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #E9B93D; /* Set the link hover/focus color */
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa; /* Set the dropdown menu background color */
+}
+
+.dropdown-item {
+  color: #212529; /* Set the dropdown item color */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #F8D375; /* Set the dropdown item hover/focus color */
+  background-color: #ffffff; /* Set the dropdown item hover/focus background color */
+}
+
+/* Search Form */
+.form-control {
+  width: 200px; /* Adjust the search input width as needed */
+}
+
+.btn-outline-success {
+  color: #033BA7; /* Set the search button text color */
+  background-color: #E9B93D; /* Set the search button background color */
+  border-color: #0d6efd; /* Set the search button border color */
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus {
+  color: #fff; /* Set the search button hover/focus text color */
+  background-color: #0b5ed7; /* Set the search button hover/focus background color */
+  border-color: #0b5ed7; /* Set the search button hover/focus border color */
+}
+
+/* Footer */
+.muted {
+  color: #033BA7; /* Set the muted text color */
+}
+ .container {
+    display: flex;
+    align-items: center;
+  }
+ .text-align-right {
+    text-align: right;
+
+  .image {
+    width: 75px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+
+  .text-align-right {
+    text-align: right;
+  }
+
+.image {
+  width: 100px; /* Adjust the image width as needed */
+  height: auto; /* Adjust the image height as needed */
+  margin-right: 10px; /* Adjust the image margin as needed */
+}
+
+.text-align-right {
+  text-align: right; /* Align the text to the right */
+}
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #45946E; /* Set your desired background color here */
+    padding: 20px; /* Add some padding to create space around the cards */
+  }
+  
+  .card {
+    width: 18rem;
+    margin: 10px; /* Add some margin to create space between the cards */
+    background-color: #ffffff; /* Set the background color for each card */
+  }
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #E9B93D;
+  color: #033BA7;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #45946E;
+}
+
+
+.accordion-button {
+  background-color: #f8f9fa; /* Set the accordion button background color */
+  color: #212529; /* Set the accordion button text color */
+  border-color: #f8f9fa; /* Set the accordion button border color */
+}
+
+.accordion-button:hover,
+.accordion-button:focus {
+  background-color: #e9ecef; /* Set the accordion button hover/focus background color */
+  color: #0d6efd; /* Set the accordion button hover/focus text color */
+  border-color: #e9ecef; /* Set the accordion button hover/focus border color */
+}
+
+.accordion-item {
+  margin-bottom: 10px; /* Adjust the accordion item margin as needed */
+}
+
+.arrow-list {
+  list-style-type: none; /* Remove the default list style */
+  padding-left: 15px; /* Adjust the list padding as needed */
+}
+
+.arrow-list li:before {
+  content: "\2192";
+
+
